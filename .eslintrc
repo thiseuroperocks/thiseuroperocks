@@ -1,0 +1,24 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": "./webpack/webpack.config.js"
+      }
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "rules": {
+    "react/prefer-stateless-function": 0,
+    "global-require": 0,
+    "no-constant-condition": 0,
+    "class-methods-use-this": 0,
+    "no-underscore-dangle": 0,
+    "no-console": 0
+  }
+}
